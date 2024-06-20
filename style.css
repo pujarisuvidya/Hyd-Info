@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+.navbar li{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+.navbar a{
+    color: white;
+}
+.navbar li:hover{
+    background: rgb(10, 147, 232);
+    border-color: white;
+    border-radius: 5px;
+}
+.navbar-toggler{
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: rgb(27, 27, 61);
+}
+
+.navbar button{
+    color: white;
+    border-color: white;
+}
+.navbar button:hover{
+    background: rgb(10, 147, 232);
+    border-color: white;
+}
+.w-100-height{
+    height: 100%;
+    width: 100%;
+}
+.carousel-caption{
+    text-align: center;
+}
+.carousel-caption h5{
+    font-size: 60px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    line-height: 400px;
+    text-align: center;
+}
+
+.carousel-caption button{
+    width: 20%;
+    height: 20%;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: -10%;
+    color: black;
+}
+.carousel-caption button:hover{
+    background: rgb(10, 147, 232);
+    border-color: white;
+    color: white;
+}
+.carousel-caption a{
+    color: black;
+}
+.carousel-caption a:hover{
+    background: rgb(10, 147, 232);
+    border-color: white;
+    color: white;
+}
+
+.carousel-control-prev-icon:hover{
+    background-color: rgb(92, 92, 92);
+    color: white;
+}
+.carousel-control-next-icon:hover{
+    background-color: rgb(92, 92, 92);
+    color: white;
+}
+@media screen and (max-width : 767px){
+    .w-100-height{
+        height: 70%;
+        width: 100%;
+    }
+    .carousel-caption h5{
+        font-size: 30px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 50px;
+        margin-top: -150px;
+    }
+    .carousel-caption button{
+        width: 35%;
+        height: 20%;
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 10%;
+        color: black;
+    }
+}
+
+
+
+
+.bg-footer{
+    background-color: black;
+    padding: 50px 0 30px;
+}
+.bg-footer a{
+    text-decoration: none;
+    color: white;
+}
+.bg-footer a:hover{
+    color: rgb(10, 147, 232);
+}
+
+
+
+
+
+
+.container2{ 
+    display: grid;
+    padding-bottom: 120px;
+    padding-right: 300px;
+    justify-content: space-around;
+     }
+     h1{
+        color: black;
+        padding-top:120px;
+        text-align: center;
+        text-decoration: underline 2px;
+     }
+    .content{
+    width: 250%;
+    height: 90%;
+    margin-top: 50px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    background:#fff;
+    text-align: center;
+     }
+     .content h2{
+     margin-top: 30px;
+    color: black;
+    cursor: pointer;
+     }
+     .content h2:hover{
+      color: rgb(10, 147, 232);
+     }
+
+
+
+
+     @media screen and (max-width : 767px){
+        .content{
+            display: grid;
+            width: 150%;
+            margin-left: 100px;
+            margin-top: 60px;
+        }
+
+     }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
